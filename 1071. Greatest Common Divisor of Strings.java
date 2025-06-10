@@ -17,6 +17,7 @@ class Solution {
         return str1.substring(0, gcdLength);
     }
 
+    // GCD algo, best to just know it
     private int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;
